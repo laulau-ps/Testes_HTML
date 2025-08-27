@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="página teste de formulários elemento output">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="formulário, elemento, output">
+    <link rel="stylesheet" href="css/style_index14.css">
+    <title>Página teste de elementos do formulário - output</title>
+    </head>
+<body>
+    <p>Output representa o resultado de um cálculo. Exemplo:</p>
+    <form action="" 
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)"> <!--on input é um tipo de script que faz o cálculo-->
+    0
+    <input type="range" id="a" name="a" value="50">
+    <!--type range cria uma barra deslizante-->
+    100+
+    <input type="number" name="b" id="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+    </form>
+</body>
+</html>

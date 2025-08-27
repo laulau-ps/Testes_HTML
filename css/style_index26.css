@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+} /* todos os elementos no mesmo alinhamento*/
+.titulos {
+    color: brown;
+    font-size: 60px;
+} /* elementos classe titulo em cor marrom*/
+h1.um {
+    color:blue;
+    background-color: aquamarine;
+} /* elemento h1 de class titulos e subclass um em cor azul e back color diferente*/
+#subtit {
+    color: green;
+} /*elemento h2 com class porém tbm com id*/
+#h3 {
+    color: blueviolet;
+} /*class titulo com id*/
+p {
+    background-color: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} /*todos os paragrafos*/
+#rosa {
+    color: pink;
+} /*paragrafo com id rosa*/
+#azul {
+    color: blue;
+} /*paragrafo com id azul*/
+#fontemaior {
+    font-size: larger;
+} /*paragrafo com id fonte maior*/
+#laranja {
+    color: orange;
+} /*paragrafo com id laranja*/
+#roxo {
+    color: purple;
+} /*paragrafo com id roxo*/
+#fontemenor {
+    font-size: small;
+} /*paragrafo com ifonte pequeno*/

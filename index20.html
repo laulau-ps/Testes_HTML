@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="página teste de formulários elemento select">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="formulário, estudo, select">
+    <link rel="stylesheet" href="css/style_index14.css">
+    <title>Página teste de elementos do formulário - select</title>
+    </head>
+<body>
+    <p>O elemento select cria uma lista suspensa, de seleção única.</p>
+    <form action="">
+        <label for="carros">Escolha um carro:</label>
+        <select name="carros" id="carros">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <br>
+    <p>O elemento option define uma opção para selecionar, como padrão a primeira opção já vem selecionada. É possível mudar a opção pré-selecionada com o atributo selected no option. <br>
+    O atributo size (dentro do elemento select) especifica o número de valores da lista que são visiveis. Exemplo: </p>
+    <br>
+        <form action="">
+        <label for="carros">Escolha um carro:</label>
+        <select name="carros" id="carros" size="2">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <br>
+    <p>Para permitir multiplas seleções, usa-se o atributo multiple dentro do select. Exemplo:</p>
+        <br>
+        <form action="">
+        <label for="carros">Escolha um carro:</label>
+        <select name="carros" id="carros" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+</body>
+</html>

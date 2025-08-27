@@ -1,0 +1,6 @@
+body {
+    background-image: url("../midia/fotofundo.jpg");
+} /*insere uma imagem no fundo, via link (para sair da pag atual usa-se ../ depois o nome da pasta certa*/
+p {
+    background-color: white;
+}

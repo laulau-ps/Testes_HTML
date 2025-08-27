@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="página de teste de estilos">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="cor, teste, estilos">
+    <title>Página teste de estilos</title>
+</head>
+<body style="background-color: rgb(128, 181, 227);">
+    <h1>Testando os estilos</h1>
+    <p>Texto sem estilos</p>
+    <p style="color: red;">Cor vermelha, usa-se style color</p>
+    <p style="color: blue;">Cor azul, usa-se style color</p>
+    <p style="font-size: 40px;">Fonte maior, usa-se style font-size</p> 
+    <h2 style="background-color: blueviolet;">Título com outra cor de fundo, usa-se style background-color</h2>
+    <p style="background-color: brown;">Texto com outra cor de fundo, usa-se style background-color</p>
+    <p style="font-family: 'Courier New', Courier, monospace;">Um estilo de fonte (courier new), usa-se style font-family</p>
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Outro estilo de fonte (Franklin Gothic Medium), usa-se style font-size</p>
+    <h2 style="text-align: center;">Título alinhado no centro (horizontal), usa-se text-align no style</h2>
+    <p style="text-align: center;">Texto alinhado no centro (horizontal), usa-se text-align no style </p>
+    <hr>
+    <h2>Formatações</h2>
+    <p> Texto em:<b> negrito</b>, com tag b </p>
+    <p> Texto em:<i> itálico</i>, com tag i </p>
+    <p> Texto:<mark> marcado</mark>, com tag mark </p>
+    <p> Texto:<small> pequeno</small>, com tag small </p>
+    <p> Texto:<del> deletado</del> (linha no meio), com tag del </p>
+    <p> Texto:<ins> inserido</ins> (sublinhado), com tag ins </p>
+    <p> Texto:<sub> subscrito</sub> (abaixo da linha do texto), com tag sub </p>
+    <p> Texto:<sup> sobrescrito</sup> (acima da linha do texto), com tag sup </p>
+    <p> Texto:<strong> "forte", importante</strong> (negrito, porém semântico), com tag strong </p>
+    <p> Texto:<em> enfatizado</em> (itálico, porém semântico), com tag em </p>
+    <hr>
+    <h2>Citações</h2>
+    <p>Feita com blockquote, serve para citações longas, e geralmente da um recuo automático no texto:</p>
+    <blockquote cite="https://www.msn.com/pt-br/estilo-de-vida/familia/pra-quem-n%C3%A3o-viu-beb%C3%AA-recebeu-nome-in%C3%A9dito-a-m%C3%A3e-inventou/ss-AA1KAKYj?ocid=entnewsntp&pc=EDBBAN&cvid=8d1153a5d2454011935d03b36d42ec70&ei=11">
+        Uma brasileira decidiu dar à filha um nome inédito no Brasil. E, após pesquisa, Daniele Pereira Brandão Xavier registrou o bebê como Amayomi. O FLIPAR mostrou e republica para quem não viu.
+    </blockquote>
+    <p>Feita com q, serve para citações curtas, aparece entre aspas automaticamente:</p>
+    <p><q>O nome da minha filha é Amayomi.</q> Diz mãe da criança</p>
+    <p>Feita com abbr, abreviações ou siglas, pode ter o tittle para explicar o significado:</p>
+    <abbr title="Organização Não-Governamental">ONG</abbr>
+    <p>Feita com cite, referência a titulo de obra, pode ser um atributo ou tag:</p>
+    <img src="https://th.bing.com/th/id/OIP.8qprAeuZeu2jfMvEcw2xeQHaD4?w=312&h=200&c=10&o=6&pid=genserp&rm=2" alt="obra o beijo" cite="O beijo (Gustav Klimt)">
+    <br>
+    <cite>O beijo (Gustav Klimt)</cite>
+    <p>Feita com address, informações de contato ou endereço de alguém ou site:</p>
+    <address>Tel(12)345-871</address>
+    <p>Feita com bdo, direção do texto invertido (ltr -> rtl ou vice versa):</p>
+    <bdo dir="ltr">Esquerda para direita</bdo>
+    <br>
+    <bdo dir="rtl">Direita para esquerda</bdo>
+    <hr>
+    <h2>Comentários</h2>
+    <p>Comentários servem como documentação e anotações no código, não visiveis no body</p>
+    <p>Exemplo de comentário: usa-se menor que, exclamação, 4 traços e um maior que. Insira o comentário no meio dos 4 traços.</p>
+    <!-- dessa forma aqui -->
+    <!--<p>é possível usar para anular uma tag</p>--> 
+    <hr>
+    <h2>Cores no HTML</h2>
+    <p>O HTML suporta até 140 cores escritas por nome em inglês (exemplo: tomato). Pode-se usar hsl, hex, rgb, rgba e hsla</p>
+    <p style="color: brown;">style="color: brown;" -> Cor do texto</p>
+    <p style="border: 2px solid blue;">style="border: 2px solid blue;" -> Texto com cor na borda</p>
+    <p style="color:rgb(255, 99, 71);">cor em rgb: rgb(255,99,71)</p>
+    <p style="color: #ff6347;">cor em hex: #ff6347</p>
+    <p style="color: hsl(9, 100%, 64%);">cor em hsl: (9, 100%, 64%)</p>
+    <p style="color:rgba(255, 99, 71, 0.5);">cor em rgba: rgba(255,99,71,0.5) - transparencia (a = alfa) </p>
+    <hr>
+    <h2>CSS</h2>
+    <p id="p1">Padding ou preenchimento: define um preenchimento/espaço entre o texto e a borda (espaçamento da ponta do border até o texto, internamente). É preciso criar um border e depois um padding para o elemento</p>
+    <p>Margin ou margem: espaço entre a borda e o externo, uma margem. Precisa criar um border e depois o margin</p>
+</body>
+</html>
